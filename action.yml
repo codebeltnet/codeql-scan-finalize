@@ -1,0 +1,6 @@
+name: Finalyze with CodeQL
+description: An opinionated action that performs the actual SAST analysis with previously initialized CodeQL.
+runs:
+  using: composite
+  steps:
+    - uses: github/codeql-action/analyze@main
