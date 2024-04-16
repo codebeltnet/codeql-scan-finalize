@@ -4,3 +4,6 @@ runs:
   using: composite
   steps:
     - uses: github/codeql-action/analyze@main
+branding:
+  icon: 'umbrella'
+  color: 'blue'
